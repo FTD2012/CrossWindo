@@ -1,0 +1,18 @@
+[submodule "external/crosswindow"]
+	path = external/crosswindow
+	url = https://github.com/alaingalvan/crosswindow.git
+[submodule "external/crosswindow-graphics"]
+	path = external/crosswindow-graphics
+	url = https://github.com/alaingalvan/crosswindow-graphics.git
+[submodule "external/spirv-cross"]
+	path = external/spirv-cross
+	url = https://github.com/KhronosGroup/spirv-cross.git
+[submodule "external/glslang"]
+	path = external/glslang
+	url = https://github.com/KhronosGroup/glslang.git
+[submodule "external/vectormath"]
+	path = external/vectormath
+	url = https://github.com/glampert/vectormath.git
+[submodule "external/opengl-registry"]
+	path = external/opengl-registry
+	url = https://github.com/KhronosGroup/opengl-registry.git
