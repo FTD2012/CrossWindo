@@ -17,7 +17,9 @@ void xmain(int argc, const char** argv)
     xwin::EventQueue eventQueue;
 
     if (!window.create(windowDesc, eventQueue))
-    { return; }
+    {
+        return;
+    }
 
     // 🏁 Engine loop
     bool isRunning = true;
@@ -32,10 +34,11 @@ void xmain(int argc, const char** argv)
         {
             const xwin::Event& event = eventQueue.front();
 
-//            if (event.type == xwin::EventType::Mouse)
-//            {
-//                const xwin::MouseData mouse = event.data.mouse;
-//            }
+            // if (event.type == xwin::EventType::Mouse)
+            // {
+            //     const xwin::MouseData mouse = event.data.mouse;
+            // }
+
             if (event.type == xwin::EventType::Close)
             {
                 window.close();
